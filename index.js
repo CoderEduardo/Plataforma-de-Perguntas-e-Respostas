@@ -26,7 +26,21 @@ app.get("/",(req,res)=>{
 })
 
 app.get("/perguntar",(req,res) =>{
-    
+    res.render("perguntar")
+})
+
+app.post("/salvarpergunta",(req,res)=>{
+
+    let titulo = req.body.titulo
+    let descricao = req.body.descricao
+
+    Pergunta.create({
+        titulo:titulo,
+        descricao:descricao
+    }).then(()=>{
+        res.redirect("/")
+    })
+
 })
 
 app.listen(PORTA,()=>{

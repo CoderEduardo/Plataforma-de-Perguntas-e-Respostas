@@ -11,7 +11,13 @@
         <a href="/perguntar" class="btn btn-primary">Perguntar</a>
 
         <% perguntas.forEach(pergunta => { %>
-            <%= pergunta.titulo %>
+            
+            <div class="card mt-5">
+                <div class="card-body">
+                    <%= pergunta.titulo %>
+                </div>
+            </div>
+
         <% });  %>
 
 </body>
