@@ -13,8 +13,9 @@
         <% perguntas.forEach(pergunta => { %>
             
             <div class="card mt-5">
-                <div class="card-body">
-                    <%= pergunta.titulo %>
+                <div class="card-body" style="display: flex; justify-content:space-between;">
+                    <h4><%= pergunta.titulo %></h4>
+                    <a href="/pergunta/<%= pergunta.id %>" class="btn btn-primary">Responder</a>
                 </div>
             </div>
 
