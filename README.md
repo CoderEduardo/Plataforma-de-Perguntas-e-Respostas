@@ -32,7 +32,7 @@
 
 ############################################
 
-### É muito importante ter um banco de dados criado na sua máquina, o nome que vamos usar é "guiaperguntas", crie ele sem as aspas. Usamos o mysql para criar o banco, e acessamos ele dentro da pasta database no arquivo connection, caso você tenha criado um banco com outro nome, é só você trocar o nome dele nas variáveis, mas para evitar erros, recomendo que crie com o nome "guiaperguntas".
+### É muito importante ter um banco de dados criado na sua máquina, o nome que vamos usar é "guiaperguntas", crie ele sem as aspas. Usamos o mysql para criar o banco, e acessamos ele dentro da pasta database no arquivo connection, caso você tenha criado um banco com outro nome, é só você trocar o nome dele nas variáveis, mas para evitar erros, recomendo que crie com o nome "guiaperguntas". Será necessário também trocar a senha no arquivos database.js, colocando a senha do seu mysql.
 
 ### 
 
